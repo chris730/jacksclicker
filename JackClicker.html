@@ -1,0 +1,22 @@
+<h1> Jack Smith </h1>
+<img src="jack.png">
+<p>Say Hi to me</p>
+<hr>
+
+<button onclick="SayHi()" style="padding: 15px 32px;background-color: #7ec1d7;">Say Hi to Jack</button>
+
+
+
+<p id="text">Hi Count: 0</p>
+
+
+<script>
+
+var hello = 0
+
+function SayHi() {
+  	hello = hello + 1
+  	document.getElementById("text").innerHTML = "Hi Count: "+hello;
+}
+</script>
+
